@@ -1,13 +1,25 @@
 import scala.collection.mutable.ArrayBuffer
 
-object TestFunc {
+object TestArrayFor {
   def main(args: Array[String]): Unit = {
+//    val line = readLine("input a line :")
+//    println(line)
 //    println("xxx")
-//    val test = new Test("ddd", 1)
-//    println(test)
-//    println(test.desc)
+    val test = new Test1("ddd", 1)
+    println(test)
+    println(test.desc)
 //    testArray
-    testArrayBuffer
+//    testArrayBuffer
+//    print("aaa"(0))
+//    print("creat" * 3)
+//    for (i <- 1 to 3; j <- 1 to 3 if i != j) {
+//      print( (i * 10) + j + " ")
+//    }
+//    val newstr = for (c <- "hello"; j <- 0 to 1) yield (c + j).toChar //生成字符串
+//    println(newstr.mkString(","))
+    val newstr = for (j <- 0 to 1; c <- "hello") yield (c + j).toChar //
+    // 10 max 2
+    // take drop takeRight dropRight substring
   }
 
   def testArray():Unit = {
